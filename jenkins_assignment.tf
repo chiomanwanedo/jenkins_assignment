@@ -1,11 +1,11 @@
 provider "aws" {
   region = "eu-west-2"  
 }
-resource "aws_s3_bucket" "jenkins-bucket" {
-  bucket = "jenkins-bucket"
+resource "aws_s3_bucket" "sochikaima-bucket" {
+  bucket = "sochikaima-bucket"
 
   tags = {
-    Name        = "My bucket"
+    Name        = "sochikaima-bucket"
     Environment = "Dev"
   }
 }

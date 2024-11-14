@@ -1,7 +1,7 @@
 provider "aws" {
   region = "eu-west-2"  
 }
-resource "aws_s3_bucket" "my_s3_bucket" {
+resource "aws_s3_bucket" "jenkinsbucket" {
   bucket = "jenkinsbucket"
 
   tags = {
